@@ -35,7 +35,7 @@ use lang = fr to set response in french
 ### Exemple 2 search paris from the API
 use paris instead of ${city} to know the paris weather
 ```bash
-`http://api.weatherapi.com/v1/current.json?key=${this.API_KEY}&q=${city}&lang=fr`
+`http://api.weatherapi.com/v1/current.json?key=${this.API_KEY}&q="Paris"&lang=fr`
 ```
 
 ### Exemple 3 search a city 
